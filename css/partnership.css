@@ -1,0 +1,160 @@
+#logo svg {
+    fill: #414042;
+    ;
+}
+
+#quick-links a {
+    color: #414042;
+}
+.title2 {
+    padding:0;
+}
+
+#partner {
+    color: #000;
+    padding: 100px 5% 0;
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+}
+
+#partner h1 {
+    font-family: "Playfair Display", Times, "Times New Roman", serif;
+    padding-bottom: 40px;
+}
+
+#partner .intro p {
+    line-height: 2;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+#partner .fascia-2 .fascia {
+    border-bottom: 2px solid #000;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+#partner .fascia-2 h2 {
+    padding: 30px 0;
+}
+
+#partner .fascia-2 p {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#partner .fascia-2 a {
+    border: 1px solid #000;
+    color: #000;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    display: table;
+    margin: 30px auto;
+    font-size: 14px;
+}
+
+#partner .fascia-2 a:hover {
+    color: #fff;
+    background-color: #000;
+}
+#partner .fascia-2 .fascia .gallery-partner {
+    width: 125%;
+    margin-left: -12.5%;
+    
+}
+
+
+.gallery-partner .slick-dots {
+    padding: 10px 20px 20px;
+    display: flex;
+}
+#partner .fascia-2 .gallery-partner .slick-dots {
+    padding: 10px 0 0;
+    padding-right: 8%;
+}
+.gallery-partner .slick-dots li.slick-active button {
+    color: #000;
+}
+.gallery-partner .slick-dots li button {
+    color: #939598;
+}
+.gallery-partner .slick-dots li {
+    color: #939598;
+    font-size: 1.4rem;
+    font-family: "Gotham-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.gallery-partner .slick-dots li:first-child {
+    margin-left: auto;
+}
+
+.slick-dots li button{
+    font-size: 14px;
+}
+.slick-dots li button:before{
+    content: '|';
+    font-size: 14px;
+    line-height: 14px;
+    left:-15px;
+}
+
+@media only screen and (min-width: 375px) {
+    .title2 {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #partner .intro {
+        padding-top: 50px;
+    }
+
+    .intro .title2 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #partner .fascia-2 {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #partner .fascia-2 {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    #partner .fascia-2 h2 {
+        padding: 0 0 20px;
+        text-align: start;
+        font-size: 1.5rem;
+    }
+    #partner .fascia-2 .fascia {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #partner .fascia-2 .fascia .gallery-partner {
+        width: 70%;
+        margin-left: -7%;
+    }
+    
+    #partner .fascia-2 .fascia .right {
+        width: 40%;
+        text-align: left;
+    }
+    
+
+    #partner .fascia-2 a {
+        margin: 30px 0;
+    }
+}

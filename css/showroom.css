@@ -1,0 +1,209 @@
+.archivio {
+    background-color: #000;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 20px 5%;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.archivio img {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+.panel {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.panel .content {
+    max-width: 1280px;
+    margin: 0 auto 20px;
+    width: 100%;
+}
+
+.panel a {
+    padding: 10px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+    border: 1px solid #fff;
+}
+
+.page-template-home .hard-couture,
+.page-template-home-2 .hard-couture,
+.page-template-showroom .hard-couture {
+    padding: 30px 20px;
+    max-width: 968px;
+    margin: 0 auto;
+}
+
+.page-template-showroom .hard-couture {
+    padding: 80px 20px;
+}
+
+.page-template-showroom .title3 {
+    line-height: 1.2;
+}
+
+.page-template-showroom .hard-couture .text {
+    padding-bottom: 40px;
+    line-height: 2;
+}
+
+.page-template-showroom .indirizzo {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.page-template-showroom .indirizzo a {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.page-template-showroom .indirizzo img {
+    max-width: 10px;
+    margin-right: 5px;
+}
+
+.page-template-showroom .indirizzo p {
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 13px;
+}
+
+.page-template-showroom .progetto {
+    padding-top: 80px;
+}
+
+.page-template-showroom .pulsante {
+    text-decoration: underline;
+    color: #666 !important;
+    font-size: 18px;
+}
+
+.page-template-showroom .progetto a {
+    border: 1px solid #000;
+    color: #000;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    display: table;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.page-template-showroom .the-metal {
+    background: #efeff0;
+    padding: 80px 20px;
+    margin-bottom: 0;
+}
+
+.page-template-showroom .the-metal .left,
+.page-template-showroom .the-metal .title3 {
+    text-align: left;
+}
+
+.page-template-showroom .the-metal .video {
+    width: 100%;
+}
+
+.page-template-showroom .the-metal .emphasis {
+    font-size: 2rem;
+    padding: 20px 0;
+    max-width: 300px;
+    display: block;
+}
+
+.page-template-showroom .the-metal .emphasis {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.page-template-showroom .the-metal .text {
+    line-height: 2;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .accordion {
+        padding: 30px 5%;
+    }
+
+    .panel .content {
+        margin: 0 auto 30px;
+    }
+
+    .panel a {
+        margin: 0 1%;
+    }
+
+    .page-template-showroom .the-metal .left {
+        float: left;
+        width: 50%;
+        padding: 0 30px 0 0;
+    }
+
+    .page-template-showroom .the-metal .video {
+        width: 50%;
+        float: right;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .panel a {
+        width: 13%;
+        margin: 0 1.666666%;
+    }
+
+    .page-template-showroom .the-metal .content {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .page-template-showroom .hard-couture {
+        max-width: 1240px;
+    }
+
+    .page-template-showroom .the-metal .content {
+        max-width: 1024px;
+    }
+
+    .page-template-showroom .the-metal .left {
+        width: 38%;
+    }
+
+    .page-template-showroom .the-metal .video {
+        width: 62%;
+        float: right;
+    }
+}

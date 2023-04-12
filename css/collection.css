@@ -1,0 +1,277 @@
+body {
+    font: normal 1.6rem "Gotham-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    background: #fff;
+}
+#logo svg{
+    fill: #414042;;
+}
+#quick-links a{
+    color: #414042;
+}
+.spacer {
+    display: block;
+    width: 100%;
+    height: 75px;
+}
+.top-bar {
+    max-width: 1340px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.clear:before, .clear:after {
+    content: ' ';
+    display: table;
+}
+.top-bar .filter {
+    color: #939598;
+    width: 90%;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    margin: 15px auto 0;
+}
+.top-bar .filter.opened-menu {
+    z-index: 99;
+    background: #fff;
+}
+.top-bar .filter .open-filters {
+    background: transparent;
+    text-transform: uppercase;
+    left: 2px;
+    cursor: pointer;
+}
+.top-bar .filter .open-filters:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://www.decastelli.com/site/wp-content/themes/decastelli/img/menu-arrow.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 12px;
+    height: 9px;
+    margin: 0px 0px 0px 10px;
+    float: right;
+    
+}
+
+.top-bar .filter ul {
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    left: -1px;
+    top: 20px;
+    padding: 15px 15px 0 15px;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.4s;
+    width: 101% !important;
+}
+.top-bar .filter ul li {
+    padding: 5px 0;
+    border-top: 1px solid #939598;
+}
+.top-bar .filter ul a {
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+.top-bar a {
+    color: #939598;
+    text-transform: uppercase;
+    left: 2px;
+    padding: 2px 0;
+    display: block;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+}
+.top-bar .search-product {
+    float: left;
+    color: #939598;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.top-bar .search-product:before {
+    content: "";
+    display: inline-block;
+    background-image: url('https://www.decastelli.com/site/wp-content/themes/decastelli/img/search.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 12px;
+    height: 12px;
+    margin: 0 10px 0 0;
+}
+.top-bar .search-product input {
+    text-transform: uppercase;
+    left: 2px;
+    color: #939598;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+@media only screen and (min-width: 768px){
+.top-bar .filter {
+    width: 50%;
+    padding: 0 0 20px 20px;
+    margin: 0;
+    float: left;
+}
+.top-bar .filter ul {
+    left: 0;
+}
+.top-bar .search-product {
+    width: 50%;
+    padding: 0 0 0 10px;
+}
+}
+@media only screen and (min-width: 1024px){
+.spacer {
+    height: 115px;
+}
+.top-bar {
+    padding: 30px;
+}
+.top-bar .filter {
+    padding: 0 15px 0 0;
+}
+.top-bar .filter ul {
+    left: -15px;
+}
+
+}
+
+/* product */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.products-section .products {
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-section .box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.products-section .products a {
+    width: 50%;
+    padding: 0 0 20px 20px;
+    color: #000;
+    overflow: hidden;
+    display: inline-table;
+}
+.products-section .products picture{
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+.products-section .products picture:after {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.products-section .products picture:hover::after{
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+}
+ 
+/* Slider Pagination */
+.swiper-pagination-bullet{
+    width: 20px !important;
+    height: 20px !important;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    opacity: 1;
+    
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+    color: #333;
+}
+
+
+.slide_container .slide img{
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.slide_container .slick-dots li{
+    color: #939598;
+    font-size: 1rem;
+    font-family: "Gotham-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.slide_container .slick-dots li:before{
+    content: "|";
+    display: inline-block;
+    margin: 5px 2px;
+}
+.box .slick-dots li button{
+    color: #939598;
+    background: transparent;
+    cursor: pointer;
+}
+.slide_container .slick-dots .slick-active button{
+    color: #000;
+   
+}
+.products-section .products .title4 {
+    display: block;
+    margin: 5px 0 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.emphasis {
+    font-family: "Playfair Display", Times, "Times New Roman", serif !important;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 768px){
+.products-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px 0 0;
+}
+.products-section .box {
+    width: 50%;
+    padding: 0;
+    margin-bottom:30px ;
+}
+
+.products-section .slide_container {
+    /* padding: 0 0 0 10px; */
+}
+.products-section .slide_container img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    padding-left: 20px;
+}
+}
+

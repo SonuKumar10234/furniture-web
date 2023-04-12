@@ -1,0 +1,149 @@
+#logo svg {
+    fill: #414042;
+    ;
+}
+
+#quick-links a {
+    color: #414042;
+}
+.spacer {
+    display: block;
+    width: 100%;
+    height: 75px;
+}
+.intro-small {
+    color: #000;
+    padding: 50px 20px;
+}
+.careers {
+    color: #000;
+    padding: 0 20px;
+    max-width: 1004px;
+    margin: 0 auto;
+}
+.careers a {
+    color: #000;
+    transition: all 0.4s;
+}
+.careers a:hover {
+    opacity: 0.5;
+}
+.careers form a {
+    font-size: 1.4rem;
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+.wpcf7-list-item-label::before, .wpcf7-list-item-label::after {
+    content: " ";
+}
+
+main form.wpcf7-form {
+    font-size: 1.4rem;
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main form.wpcf7-form .wpcf7-radio .wpcf7-list-item {
+    margin: 0 30px 0 0;
+}
+main form.wpcf7-form input[type="radio"] {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #939598;
+    margin-right: 10px;
+    cursor: pointer;
+}
+main form.wpcf7-form input[type="radio"]:checked {
+    background: #939598;
+}
+main form.wpcf7-form p {
+    padding: 0 0 25px;
+}
+main form.wpcf7-form input[type="text"], main form.wpcf7-form input[type="email"], main form.wpcf7-form input[type="tel"], main form.wpcf7-form input[type="file"], main form.wpcf7-form select, main form.wpcf7-form textarea {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    background: #efeff0;
+    border: 1px solid #939598;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: rgba(0,0,0,0.7);
+    font-family: "Gotham-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main form.wpcf7-form .wpcf7-acceptance .wpcf7-list-item {
+    margin: 0;
+    display: block !important;
+}
+main form.wpcf7-form input[type="checkbox"] {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #939598;
+    margin-right: 10px;
+    cursor: pointer;
+}
+main form.wpcf7-form input[type="checkbox"]:checked {
+    background: #939598;
+}
+
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+main form.wpcf7-form .privacy {
+    display: flex;
+}
+main form.wpcf7-form input[type="submit"] {
+    display: block;
+    padding: 20px 40px;
+    background: transparent;
+    font-size: 1.6rem;
+    line-height: 1;
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #000;
+}
+main form.wpcf7-form input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+main form.wpcf7-form .double {
+    display: flex;
+}
+main form.wpcf7-form .double p {
+    width: 50%;
+    margin-right: 20px
+}
+main form.wpcf7-form .double p:first-child {
+    padding-right: 10px;
+}
+}
+
+
+
+@media only screen and (min-width: 1024px){
+.spacer {
+    height: 115px;
+}
+.intro-small {
+    padding: 50px 0;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+}

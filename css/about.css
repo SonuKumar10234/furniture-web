@@ -1,0 +1,203 @@
+.about-content {
+    color: #000;
+}
+
+.about-content .title3 {
+    text-align: center;
+    line-height: 1.4;
+    padding: 30px 20px;
+}
+.about-content p {
+    padding: 0 20px;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: rgba(0,0,0,0.7);
+}
+ .video {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 30px;
+}
+.video video {
+    max-width: 1000px;
+    width: 90%;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+.about-content .right {
+    padding-top: 30px;
+}
+.about-content .title3 {
+    text-align: center;
+    line-height: 1.4;
+    padding: 30px 20px;
+}
+
+.sostenibilita {
+    color: #000;
+    padding: 60px 20px 30px;
+    text-align: center;
+}
+.sostenibilita .title3 {
+    padding-bottom: 30px;
+}
+.sostenibilita p {
+    line-height: 2;
+    font-size: 1.6rem;
+}
+.sostenibilita .certificazioni {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sostenibilita a {
+    color: #000;
+    font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+.sostenibilita .certificazioni a {
+    font-size: 14px;
+    font-weight: bold;
+}
+.sostenibilita .certificazioni span {
+    display: none;
+}
+.sostenibilita .gallery-standard {
+    background-color: #d3ead0;
+    padding: 30px;
+}
+
+.sostenibilita .gallery-standard .slide {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.sostenibilita .gallery-standard .title3 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.sostenibilita .count {
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+
+
+/* Product Gallery */
+.product-gallery {
+    padding-top: 30px;
+}
+.product-gallery picture {
+    display: block;
+    width: 100%;
+    padding: 0 20px 20px;
+    position: relative;
+}
+
+@media only screen and (min-width: 768px){
+
+.product-gallery .left {
+    text-align: left;
+}
+.product-gallery .right {
+    text-align: right;
+}
+.product-gallery .hor img {
+    width: 90%;
+}
+.product-gallery .ver img {
+    width: 50%;
+}
+
+
+}
+@media only screen and (min-width: 1024px){
+.two-colums {
+    padding: 0 30px;
+    column-count: 2;
+    column-gap: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.inverse {
+    flex-direction: row-reverse;
+}
+
+.about-content .right {
+    padding-top: 100px;
+}
+.about-content .left {
+    float: left;
+    padding: 0 30px 0 0;
+    width: 50%;
+    max-width: 527px;
+}
+.flex .right, .flex .left {
+    width: 48%;
+}
+.about-content .left p {
+    padding: 0 0 0 30px;
+}
+.about-content .left .title3 {
+    text-align: left;
+    padding: 100px 0 30px 30px;
+}
+.about-content .title3 {
+    padding-top: 100px;
+}
+.sostenibilita p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgba(0,0,0,0.7);
+}
+.sostenibilita .certificazioni {
+    flex-direction: row;
+    padding: 30px 0 60px;
+}
+.sostenibilita .certificazioni span {
+    display: inline-block;
+    margin: 0 5px;
+}
+.sostenibilita .gallery-standard {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    overflow: hidden;
+}
+.sostenibilita .gallery-standard .slide {
+    height: 300px;
+}
+.sostenibilita .gallery-standard .title3 {
+    padding-bottom: 40px;
+}
+.sostenibilita .gallery-standard p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.sostenibilita .count {
+    padding-top: 25px;
+}
+
+/* Product Gallery */
+.product-gallery {
+    padding: 0 30px 30px;
+    max-width: 1340px;
+    margin: 50px auto;
+}
+.product-gallery picture {
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+}
+}
